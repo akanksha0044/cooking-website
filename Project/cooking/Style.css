@@ -1,0 +1,216 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    color:  black;
+    text-align: center;
+}
+
+
+
+.head{
+    margin: 10px;
+    padding: 5px;
+    
+    font-family: 'Lobster', cursive;;
+    font-size: 4em;
+    text-decoration: underline;
+}
+/*  
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  #animate-area {
+    margin: 50px auto 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940-on-plate-2113556.jpg');
+
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+  } */
+
+  #home{
+    margin: 50px auto 50px ;
+    content: "";
+    position: absolute;
+    background: url('pancake-on-plate-2113556.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    color : white;
+    justify-content: center;
+    align-items: center ;
+    
+  }
+
+
+  #home:h1{
+      color: white;
+      margin-top: 50%;
+      font-size: 3.3 rem;
+  }
+  #home:p{
+      color: white;
+      font-size: 3.2rem;
+      
+  }
+
+   .h-primary{
+
+     font-weight: 100;       
+      justify-content: center;
+      align-items: center;
+   }
+
+
+   *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    color:  black;
+    text-align: center;
+}
+
+
+
+.head{
+    margin: 10px;
+    padding: 5px;
+    
+    font-family: 'Lobster', cursive;;
+    font-size: 4em;
+    text-decoration: underline;
+}
+/*  
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  #animate-area {
+    margin: 50px auto 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940-on-plate-2113556.jpg');
+
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animatedBackground 10s linear infinite alternate;
+  } */
+
+  #home{
+    margin: 50px auto 50px ;
+    content: "";
+    position: relative;
+    background: url('pancake-on-plate-2113556.jpg') no-repeat center center/cover;
+    height:700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    color :rgb(211, 19, 19);
+    justify-content: center;
+    align-items: center ;
+    font-size: 1.2rem;
+    
+  }
+
+
+  .home::h1{
+      /* color: white; */
+      margin-top: 50%;
+      font-size: 4.3 rem;
+      color: blue;
+  }
+  #home::p{
+      /* color: white; */
+      margin-top: 100%;
+      font-size: 5.2rem;
+      color: white;
+      
+  }
+
+   .h-primary{
+
+     font-weight: 100;       
+      justify-content: center;
+      align-items: center;
+   }
+
+   .services{
+     position: relative;
+     margin: 80px 20px 30px;
+     
+     font-size: 1.3rem;
+     background-color: silver;
+     box-sizing: border-box;
+
+   }
+   .services h1{
+     padding : 10px;
+   }
+   .services p{
+     padding: 10px;
+   }
+  
+   .services img{
+      height: 400px;
+      width: 400px;
+      border-radius: 50%;
+     
+      margin: 20px;
+      box-shadow: 20px 20px 7px gray;
+      display: flex;
+      position: relative;
+   } 
+
+    .wrap-img-right{
+      float: right;
+      display: flex;
+    }
+    .wrap-img-left
+    {
+      float: left;
+      display: flex;
+    }
+    
+    .wrap-set{
+          margin: 40px ;
+          padding: 40px;
+    }
+
+    .Text-wrap-Right{
+      text-align: left;
+      line-height: 1.5;
+      margin: 40px 10px ;
+      padding-left: 50%;
+      padding-top: 40px;;
+    }
+    .Text-wrap-left{
+      text-align: left;
+      line-height: 1.5;
+      margin: 40px 10px;
+      padding-right: 50%;
+      padding-top: 40px;
+    }
+
+    #footer{
+      margin: 20px;
+      padding: 5px;
+      text-shadow: 5px 5px 3px gray;
+    }
